@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "type": "data_connector",
+  "extraData": {
+    "disabledPeriodicSync": true,
+    "dataSourceConfigUiUri": "https://src-ssrf.bytedance.net/ssrf",
+    "initHeight": 400,
+    "initWidth": 600
+  },
+  "protocol": {
+    "type": "http",
+    "httpProtocol": {
+      "uris": [
+        {"type": "tableMeta", "uri": "https://src-ssrf.bytedance.net/ssrf"},
+        {"type": "records", "uri": "https://src-ssrf.bytedance.net/ssrf"}
+      ]
+    }
+  }
+}
